@@ -4,7 +4,7 @@ import pandas as pd
 
 app=Flask(__name__)
 
-model=pickle.load(open("..\LinearRegressionModel.pkl", 'rb'))
+model=pickle.load(open("LinearRegressionModel.pkl", 'rb'))
 car=pd.read_csv("Cleaned Car.csv")
 
 
